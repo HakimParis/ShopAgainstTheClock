@@ -1,8 +1,12 @@
 <?php
 
+if (isset($_GET['product']) && !empty($_GET['product'])) {
+    $product = $_GET['product'];
+}
+
 
 $search_request = new stdClass();
-$search_request->Keyword = '';
+$search_request->Keyword = $product;
 $search_request->SortBy = '';
 $search_request->Pagination = new stdClass();
 $search_request->Pagination->ItemsPerPage = 100;
@@ -39,3 +43,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                                                                                                                      
 $result = curl_exec($ch);
 $rep = curl_getinfo ($ch);
+
+echo '<pre>';
+var_dump(json_decode($result));
