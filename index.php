@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Appest  A Mobile App category Flat bootstrap Responsive  Website Template | Home :: w3layouts</title>
+<title>Rediscount/title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -45,10 +45,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				 <nav class="cl-effect-16">
 					<ul class="res">
-					   <li><a href="index.html" class="active"  data-hover="Home">Home</a></li> 
-					   <li><a class="scroll" href="#about"  data-hover="About">About</a></li> 
-						<li><a class="scroll" href="#services"  data-hover="Service">Services</a></li> 
-						<li><a class="scroll" href="#gallery"  data-hover="Gallery">Gallery</a></li> 
+					   <li><a href="index.html" class="active"  data-hover="Home">Acceuil</a></li> 
+					   <li><a class="scroll" href="#about"  data-hover="About">Top occasions</a></li> 
+						<li><a class="scroll" href="#services"  data-hover="Service">Catalogue</a></li> 
+						<li><a class="scroll" href="#gallery"  data-hover="Gallery">Vendre</a></li> 
 						<li><a class="scroll" href="#contact"  data-hover="Contact">Contact</a></li> 
 				   </ul>
 				 </nav>
