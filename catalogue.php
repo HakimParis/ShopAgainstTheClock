@@ -2,8 +2,8 @@
 
 
 $search_request = new stdClass();
-$search_request->Keyword = 'Ps3';
-$search_request->SortBy = 'minprice';
+$search_request->Keyword = '';
+$search_request->SortBy = '';
 $search_request->Pagination = new stdClass();
 $search_request->Pagination->ItemsPerPage = 10;
 $search_request->Pagination->PageNumber = 0;
@@ -13,8 +13,8 @@ $search_request->Filters->Price->min = 0;
 $search_request->Filters->Price->max = 0;
 $search_request->Filters->Navigation = 'all';
 $search_request->Filters->IncludeMarketPlace = true;
-$search_request->Filters->Brands = ['sony'];
-$search_request->Filters->Condition = true;
+$search_request->Filters->Brands = [];
+$search_request->Filters->Condition = 'used';
 
 $fields = array(
 	'ApiKey' => '75243e65-dfd6-4058-91b0-9e2a89573eb8',
@@ -39,7 +39,3 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
                                                                                                                      
 $result = curl_exec($ch);
 $rep = curl_getinfo ($ch);
-
-echo '<pre>';
-
-var_dump(json_decode($result));
