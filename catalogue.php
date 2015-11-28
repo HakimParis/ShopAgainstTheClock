@@ -18,7 +18,7 @@ $search_request->Filters->Price->max = 0;
 $search_request->Filters->Navigation = 'all';
 $search_request->Filters->IncludeMarketPlace = true;
 $search_request->Filters->Brands = [];
-$search_request->Filters->Condition = 'used';
+$search_request->Filters->Condition = 'Used';
 
 $fields = array(
 	'ApiKey' => '75243e65-dfd6-4058-91b0-9e2a89573eb8',
