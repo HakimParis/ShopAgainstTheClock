@@ -45,10 +45,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				 <nav class="cl-effect-16">
 					<ul class="res">
-					   <li><a href="index.html" class="active"  data-hover="Home">Accueil</a></li> 
-					   <li><a class="scroll" href="#about"  data-hover="About">Top occasions</a></li> 
-						<li><a class="scroll" href="#services"  data-hover="Service">Catalogue</a></li> 
-						<li><a class="scroll" href="#gallery"  data-hover="Gallery">Vendre</a></li> 
+					   <li><a href="index.php" class="active"  data-hover="Home">Accueil</a></li> 
+					   <li><a class="scroll" href="#about"  data-hover="About">A propos</a></li> 
+					   <li><a class="scroll" href="#occas"  data-hover="About">Top occasions</a></li> 
+						<li><a class="scroll" href="#catalog"  data-hover="Service">Catalogue</a></li> 
+						<li><a class="scroll" href="#vendre"  data-hover="Gallery">Vendre</a></li> 
 						<li><a class="scroll" href="#contact"  data-hover="Contact">Contact</a></li> 
 				   </ul>
 				 </nav>
@@ -112,20 +113,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="about-main">
 			<div class="about-top">
-				<h2>About</h2>
-				<h4>Temporibus autem quibusdam officiis debitis rerum necessitatibus.</h4>
-				<p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque assumenda  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ounce with righteous indignation and dislike men beguiled and demoralized</p>
+				<h2>A propos</h2>
+				<h4>Soyez la premier averti des meilleurs occasions sur vos produits préférés Cdiscount</h4>
+				<p>Vous avez repéré un produit qui vous intéresse sur Cdiscount mais vous disposez d'un budget limité ? Vous n'avez pas le temps ni la patience de vérifier quotidiennement la disponibilité de ce produit sur tous les sites d'occasion ? Vous êtes à la recherche des meilleurs affaires d'occasion ?</p>
 			</div>
 			<div class="about-bottom">
 				<div class="col-md-4 about-grid">
-					<h3>Et harum quidem rerum</h3>
+					<h3>Produits/h3>
 					<img src="images/a1.jpg" alt="" class="img-responsive">
-					<p>cumque assumenda  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ounce with righteous indignation and dislike men beguiled</p>
+					<p>Choisissez d'être notifié à partir des millions de références du catalogue Cdiscount</p>
 				</div>
 				<div class="col-md-4 about-grid">
-					<h3>Libero tempore soluta</h3>
+					<h3>Budget</h3>
 					<img src="images/a2.jpg" alt="" class="img-responsive">
-					<p>cumque assumenda  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ounce with righteous indignation and dislike men beguiled</p>
+					<p>Paramétrer les seuils de votre budget pour ne pas être notifié inutilement</p>
 				</div>
 				<div class="col-md-4 about-grid">
 					<h3>Temporibus quibusdam</h3>
