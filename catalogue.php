@@ -27,7 +27,11 @@ $fields = array(
 );
 
                                                                    
-$data_string = json_encode($fields);                                                                                   
+$data_string = json_encode($fields);
+$response = http_post_fields("http://www.example.com/", $fields, array(                                                                          
+    'Content-Type: application/json',                                                                                
+    'Content-Length: ' . strlen($data_string)));
+var_dump($response);
 echo '<pre>';
 var_dump($data_string);
 $url = 'https://api.cdiscount.com/OpenApi/json/Search';
