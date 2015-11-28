@@ -1,3 +1,4 @@
 <?php
 
-phpinfo();
+echo 'Salut thomas ', PHP_EOL,'On est pas dans la merde';
+
