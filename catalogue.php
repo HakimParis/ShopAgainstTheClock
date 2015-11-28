@@ -1,5 +1,11 @@
 <?php
 
+if (extension_loaded('curl')) {
+    echo "curl est dispo";
+} else {
+    echo "curl n'est pas dispo";
+}
+
 $search_request = new stdClass();
 $search_request->Keyword = 'Ps3';
 $search_request->SortBy = 'minprice';
