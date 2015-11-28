@@ -1,6 +1,6 @@
 <?php
 
-$url = 'http://domain.com/get-post.php';
+$url = 'https://api.cdiscount.com/OpenApi/json/Search';
 
 $search_request = new stdClass();
 $search_request->Keyword = 'Ps3';
@@ -18,14 +18,14 @@ $search_request->Filters->Brands = [];
 $search_request->Filters->Condition = true;
 
 $fields = array(
-	'ApiKey' => urlencode(75243e65-dfd6-4058-91b0-9e2a89573eb8),
+	'ApiKey' => urlencode('75243e65-dfd6-4058-91b0-9e2a89573eb8'),
 	'SearchRequest' => $search_request
 );
 
                                                                    
 $data_string = json_encode($fields);                                                                                   
                                                                                                                      
-$ch = curl_init('http://api.local/rest/users');                                                                      
+$ch = curl_init($url);                                                                      
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);                                                                  
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);                                                                      
