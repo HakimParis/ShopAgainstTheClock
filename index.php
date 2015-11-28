@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Rediscount/title>
+<title>Rediscount</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -39,13 +39,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		 <div class="header-main">
 				<div class="logo">
-					<h1><a href="index.html">Appest</a></h1>
+					<h1><img src="/logo_titre_chien.png"> <img src="/logo_titre.png"></h1>
 				</div>
 				<div class="top-nav">
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				 <nav class="cl-effect-16">
 					<ul class="res">
-					   <li><a href="index.html" class="active"  data-hover="Home">Acceuil</a></li> 
+					   <li><a href="index.html" class="active"  data-hover="Home">Accueil</a></li> 
 					   <li><a class="scroll" href="#about"  data-hover="About">Top occasions</a></li> 
 						<li><a class="scroll" href="#services"  data-hover="Service">Catalogue</a></li> 
 						<li><a class="scroll" href="#gallery"  data-hover="Gallery">Vendre</a></li> 
