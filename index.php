@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				 <nav class="cl-effect-16">
 					<ul class="res">
-					   <li><a href="index.html" class="active"  data-hover="Home">Acceuil</a></li> 
+					   <li><a href="index.html" class="active"  data-hover="Home">Accueil</a></li> 
 					   <li><a class="scroll" href="#about"  data-hover="About">Top occasions</a></li> 
 						<li><a class="scroll" href="#services"  data-hover="Service">Catalogue</a></li> 
 						<li><a class="scroll" href="#gallery"  data-hover="Gallery">Vendre</a></li> 
