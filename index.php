@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		 <div class="header-main">
 				<div class="logo">
-					<h1><a href="index.html">Appest</a></h1>
+					<h1><img src="/logo_titre.png"></h1>
 				</div>
 				<div class="top-nav">
 					<span class="menu"> <img src="images/icon.png" alt=""/></span>
