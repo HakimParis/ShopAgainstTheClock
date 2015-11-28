@@ -1,10 +1,5 @@
 <?php
 
-if (extension_loaded('curl')) {
-    echo "curl est dispo";
-} else {
-    echo "curl n'est pas dispo";
-}
 
 $search_request = new stdClass();
 $search_request->Keyword = 'Ps3';
@@ -28,10 +23,6 @@ $fields = array(
 
                                                                    
 $data_string = json_encode($fields);
-$response = http_post_fields("http://www.example.com/", $data_string, array(                                                                          
-    'Content-Type: application/json',                                                                                
-    'Content-Length: ' . strlen($data_string)));
-var_dump($response);
 echo '<pre>';
 var_dump($data_string);
 $url = 'https://api.cdiscount.com/OpenApi/json/Search';
