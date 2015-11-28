@@ -14,7 +14,7 @@ $search_request->Filters->Price->min = 0;
 $search_request->Filters->Price->max = 0;
 $search_request->Filters->Navigation = 'all';
 $search_request->Filters->IncludeMarketPlace = true;
-$search_request->Filters->Brands = [];
+$search_request->Filters->Brands = ['sony'];
 $search_request->Filters->Condition = true;
 
 $fields = array(
