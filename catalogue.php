@@ -41,3 +41,5 @@ $rep = curl_getinfo ($ch);
 echo '<pre>';
 
 var_dump($rep);
+
+var_dump($result);
