@@ -1,6 +1,6 @@
 <?php
 
-$url = 'http://domain.com/get-post.php';
+$url = 'https://api.cdiscount.com/OpenApi/json/Search';
 
 $search_request = new stdClass();
 $search_request->Keyword = 'Ps3';
