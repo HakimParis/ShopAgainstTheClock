@@ -46,6 +46,6 @@ function do_post_request($url, $data, $optional_headers = null)
 $optional_headers = array(                                                                          
     'Content-Type: application/json',                                                                                
     'Content-Length: ' . strlen($data_string));
-$reponse = do_post_request($url, json_encode($fields), $optional_headers);
+$reponse = do_post_request($url, json_encode($fields), 'Content-Type: application/json');
 
 var_dump($optional_headers);
