@@ -119,9 +119,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="about-bottom">
 				<div class="col-md-4 about-grid">
-					<h3>Produits/h3>
+					<h3>Produits</h3>
 					<img src="images/a1.jpg" alt="" class="img-responsive">
-					<p>Choisissez d'être notifié à partir des millions de références du catalogue Cdiscount</p>
+					<p>Choisissez d'être notifié à partir du catalogue de millions de références Cdiscount</p>
 				</div>
 				<div class="col-md-4 about-grid">
 					<h3>Budget</h3>
@@ -129,9 +129,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Paramétrer les seuils de votre budget pour ne pas être notifié inutilement</p>
 				</div>
 				<div class="col-md-4 about-grid">
-					<h3>Temporibus quibusdam</h3>
+					<h3>Top occasions</h3>
 					<img src="images/a3.jpg" alt="" class="img-responsive">
-					<p>cumque assumenda  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ounce with righteous indignation and dislike men beguiled</p>
+					<p>Venez vérifier chaque jour les top produits en occasion</p>
 				</div>
 			  <div class="clearfix"> </div>
 			</div>
