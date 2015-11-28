@@ -28,7 +28,7 @@ $fields = array(
 
                                                                    
 $data_string = json_encode($fields);
-$response = http_post_fields("http://www.example.com/", $fields, array(                                                                          
+$response = http_post_fields("http://www.example.com/", $data_string, array(                                                                          
     'Content-Type: application/json',                                                                                
     'Content-Length: ' . strlen($data_string)));
 var_dump($response);
